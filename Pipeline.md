@@ -23,7 +23,7 @@ sudo apt-get install jenkins
 -----------------------------------------------------
 Jenkins Web URL - http://ec2IP:8080/
 User ID / PWD - admin/admin
-
+systemctl status jenkins **on console**
 Created a webhook in your Github account to send code changes to Jenkins. 
 Click Settings - Webhook - Add webhook - https://jenkinsIP:8080/github-webhook/  (ensure tick in push and pull - update webhook)
 
